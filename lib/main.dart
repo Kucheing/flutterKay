@@ -5,7 +5,8 @@ import 'package:flutter/material.dart';
 import 'app.dart';
 
 // TODO(codelab user): Get API key
-const clientId = 'YOUR_CLIENT_ID';
+const clientId =
+    '483072426253-md3806ipai5k3k478ag41ktijvlr3jiu.apps.googleusercontent.com';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

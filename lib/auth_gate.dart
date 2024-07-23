@@ -17,7 +17,9 @@ class AuthGate extends StatelessWidget {
           return SignInScreen(
             providers: [
               EmailAuthProvider(),
-              GoogleProvider(clientId: "YOUR_WEBCLIENT_ID"), // new
+              GoogleProvider(
+                  clientId:
+                      "483072426253-md3806ipai5k3k478ag41ktijvlr3jiu.apps.googleusercontent.com"), // new
             ],
             headerBuilder: (context, constraints, shrinkOffset) {
               return Padding(
