@@ -10,13 +10,18 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         actions: [
           IconButton(
-            icon: const Icon(Icons
-                .person), // the small person icon on top right; if u used web it might be block by debug
+            icon: const Icon(Icons.person),
             onPressed: () {
               Navigator.push(
                 context,
                 MaterialPageRoute<ProfileScreen>(
-                  builder: (context) => const ProfileScreen(),
+                  builder: (context) => ProfileScreen(
+                    actions: [
+                      SignedOutAction((context) {
+                        Navigator.of(context).pop();
+                      })
+                    ],
+                  ),
                 ),
               );
             },
@@ -39,3 +44,5 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+
+// the small person icon on top right; if u used web it might be block by debug
