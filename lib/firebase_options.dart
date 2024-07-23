@@ -34,42 +34,42 @@ class DefaultFirebaseOptions {
   }
 
   // TODO (codelab user): Replace with your Firebase credentials
-  // Generate this file with credentials with the FlutterFire CLI
+
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR API KEY',
-    appId: 'YOUR APP ID',
-    messagingSenderId: '',
-    projectId: 'flutterfire-ui-codelab',
-    authDomain: 'flutterfire-ui-codelab.firebaseapp.com',
-    storageBucket: 'flutterfire-ui-codelab.appspot.com',
-    measurementId: 'MEASUREMENT ID',
+    apiKey: 'AIzaSyCjVPys1sF-EzLa9G5cJtOPplQxR8Wz_BE',
+    appId: '1:483072426253:web:44eb586892fa721a79b044',
+    messagingSenderId: '483072426253',
+    projectId: 'homeanimaldetector',
+    authDomain: 'homeanimaldetector.firebaseapp.com',
+    storageBucket: 'homeanimaldetector.appspot.com',
   );
 
+  // Generate this file with credentials with the FlutterFire CLI
+
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR API KEY',
-    appId: 'YOUR APP ID',
-    messagingSenderId: '',
-    projectId: 'flutterfire-ui-codelab',
-    storageBucket: 'flutterfire-ui-codelab.appspot.com',
+    apiKey: 'AIzaSyD0pw21Q2pjVBQbvYV83tpnTM9c0aqwTN0',
+    appId: '1:483072426253:android:737c2f04337622db79b044',
+    messagingSenderId: '483072426253',
+    projectId: 'homeanimaldetector',
+    storageBucket: 'homeanimaldetector.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR API KEY',
-    appId: 'YOUR APP ID',
-    messagingSenderId: '',
-    projectId: 'flutterfire-ui-codelab',
-    storageBucket: 'flutterfire-ui-codelab.appspot.com',
-    iosClientId: 'IOS CLIENT ID',
-    iosBundleId: 'com.example.BUNDLE',
+    apiKey: 'AIzaSyA2FTotV-IlIE88t3PDACe_j2We1Feiq68',
+    appId: '1:483072426253:ios:77ad50af7266081d79b044',
+    messagingSenderId: '483072426253',
+    projectId: 'homeanimaldetector',
+    storageBucket: 'homeanimaldetector.appspot.com',
+    iosBundleId: 'com.example.complete',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'YOUR API KEY',
-    appId: 'YOUR APP ID',
-    messagingSenderId: '',
-    projectId: 'flutterfire-ui-codelab',
-    storageBucket: 'flutterfire-ui-codelab.appspot.com',
-    iosClientId: 'IOS CLIENT ID',
-    iosBundleId: 'com.example.BUNDLE',
+    apiKey: 'AIzaSyA2FTotV-IlIE88t3PDACe_j2We1Feiq68',
+    appId: '1:483072426253:ios:77ad50af7266081d79b044',
+    messagingSenderId: '483072426253',
+    projectId: 'homeanimaldetector',
+    storageBucket: 'homeanimaldetector.appspot.com',
+    iosBundleId: 'com.example.complete',
   );
+
 }

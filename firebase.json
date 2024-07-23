@@ -1,6 +1,1 @@
-{
-  "firestore": {
-    "rules": "firestore.rules",
-    "indexes": "firestore.indexes.json"
-  }
-}
+{"firestore":{"rules":"firestore.rules","indexes":"firestore.indexes.json"},"flutter":{"platforms":{"android":{"default":{"projectId":"homeanimaldetector","appId":"1:483072426253:android:737c2f04337622db79b044","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"homeanimaldetector","configurations":{"android":"1:483072426253:android:737c2f04337622db79b044","ios":"1:483072426253:ios:77ad50af7266081d79b044","macos":"1:483072426253:ios:77ad50af7266081d79b044","web":"1:483072426253:web:44eb586892fa721a79b044"}}}}}}

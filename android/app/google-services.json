@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "483072426253",
+    "project_id": "homeanimaldetector",
+    "storage_bucket": "homeanimaldetector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483072426253:android:737c2f04337622db79b044",
+        "android_client_info": {
+          "package_name": "com.homeanimaldetector.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0pw21Q2pjVBQbvYV83tpnTM9c0aqwTN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
