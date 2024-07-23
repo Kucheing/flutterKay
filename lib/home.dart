@@ -10,7 +10,8 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         actions: [
           IconButton(
-            icon: const Icon(Icons.person),
+            icon: const Icon(Icons
+                .person), // the small person icon on top right; if u used web it might be block by debug
             onPressed: () {
               Navigator.push(
                 context,
@@ -57,5 +58,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
-// the small person icon on top right; if u used web it might be block by debug
