@@ -10,10 +10,14 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         actions: [
           IconButton(
-            icon: CircleAvatar(
-              backgroundImage: AssetImage(
-                  'assets/default_avatar.png'), // Path to your avatar image
-            ), // the small person icon on top right; if u used web it might be block by debug
+            icon: SizedBox(
+              width: 60, // Adjust the width as needed
+              height: 60, // Adjust the height as needed
+              child: CircleAvatar(
+                backgroundImage: AssetImage(
+                    'assets/default_avatar.png'), // Path to your avatar image
+              ), // the small person icon on top right; if u used web it might be block by debug
+            ),
             onPressed: () {
               Navigator.push(
                 context,
@@ -45,6 +49,7 @@ class HomeScreen extends StatelessWidget {
         ],
         automaticallyImplyLeading: false,
       ),
+      //here starts the welcome to Home animal detector page
       body: Center(
         child: Column(
           children: [
