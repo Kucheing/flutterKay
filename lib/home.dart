@@ -10,8 +10,10 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         actions: [
           IconButton(
-            icon: const Icon(Icons
-                .person), // the small person icon on top right; if u used web it might be block by debug
+            icon: CircleAvatar(
+              backgroundImage: AssetImage(
+                  'assets/default_avatar.png'), // Path to your avatar image
+            ), // the small person icon on top right; if u used web it might be block by debug
             onPressed: () {
               Navigator.push(
                 context,
