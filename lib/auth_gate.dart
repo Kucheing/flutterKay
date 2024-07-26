@@ -27,7 +27,7 @@ class AuthGate extends StatelessWidget {
                 child: AspectRatio(
                   aspectRatio: 1,
                   child: Image.asset(
-                      'flutterfire_300x.png'), //we can changed the image here into our logo if we want
+                      'animal_icons.jpg'), //we can changed the image here into our logo if we want
                 ),
               );
             },
@@ -56,7 +56,7 @@ class AuthGate extends StatelessWidget {
                 child: AspectRatio(
                   aspectRatio: 1,
                   child: Image.asset(
-                      'flutterfire_300x.png'), //we can changed the image here into our logo if we want
+                      'animal_icons.jpg'), //we can changed the image here into our logo if we want
                 ),
               );
             },

@@ -31,7 +31,7 @@ class HomeScreen extends StatelessWidget {
                         padding: const EdgeInsets.all(2),
                         child: AspectRatio(
                           aspectRatio: 1,
-                          child: Image.asset('flutterfire_300x.png'),
+                          child: Image.asset('animal_icons.jpg'),
                         ),
                       ),
                     ],
@@ -46,9 +46,9 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset('dash.png'),
+            Image.asset('penguin_icon.jpg'),
             Text(
-              'Welcome!',
+              'Welcome to Home Animal Detector!',
               style: Theme.of(context).textTheme.displaySmall,
             ),
             const SignOutButton(),
